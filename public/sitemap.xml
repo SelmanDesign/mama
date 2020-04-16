@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>http://localhost:8080/causes/</loc>
+    <lastmod>2020-04-16T16:52:13-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:8080/</loc>
+    <lastmod>2020-04-16T16:52:13-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:8080/causes/warhelp/</loc>
+    <lastmod>2020-04-16T16:52:13-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:8080/causes/diseasehelp/</loc>
+    <lastmod>2020-04-16T16:52:00-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:8080/causes/deserthelp/</loc>
+    <lastmod>2020-04-16T16:51:51-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:8080/causes/floodhelp/</loc>
+    <lastmod>2020-04-16T16:51:39-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:8080/causes/firehelp/</loc>
+    <lastmod>2020-04-16T16:51:17-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:8080/sketches/</loc>
+    <lastmod>2020-04-16T11:28:30-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:8080/sketches/war/</loc>
+    <lastmod>2020-04-16T11:28:30-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:8080/sketches/disease/</loc>
+    <lastmod>2020-04-16T11:28:24-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:8080/sketches/drought/</loc>
+    <lastmod>2020-04-16T15:28:17+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:8080/sketches/flood/</loc>
+    <lastmod>2020-04-16T11:27:46-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:8080/sketches/fire/</loc>
+    <lastmod>2020-04-16T11:27:40-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:8080/aid-group/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:8080/sketches/blip/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:8080/categories/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:8080/tags/</loc>
+  </url>
+  
+</urlset>

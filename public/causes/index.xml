@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Causes on My New Hugo Site</title>
+    <link>http://localhost:8080/causes/</link>
+    <description>Recent content in Causes on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 16 Apr 2020 16:52:13 -0400</lastBuildDate>
+    
+	<atom:link href="http://localhost:8080/causes/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Warhelp</title>
+      <link>http://localhost:8080/causes/warhelp/</link>
+      <pubDate>Thu, 16 Apr 2020 16:52:13 -0400</pubDate>
+      
+      <guid>http://localhost:8080/causes/warhelp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Diseasehelp</title>
+      <link>http://localhost:8080/causes/diseasehelp/</link>
+      <pubDate>Thu, 16 Apr 2020 16:52:00 -0400</pubDate>
+      
+      <guid>http://localhost:8080/causes/diseasehelp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Deserthelp</title>
+      <link>http://localhost:8080/causes/deserthelp/</link>
+      <pubDate>Thu, 16 Apr 2020 16:51:51 -0400</pubDate>
+      
+      <guid>http://localhost:8080/causes/deserthelp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Floodhelp</title>
+      <link>http://localhost:8080/causes/floodhelp/</link>
+      <pubDate>Thu, 16 Apr 2020 16:51:39 -0400</pubDate>
+      
+      <guid>http://localhost:8080/causes/floodhelp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Firehelp</title>
+      <link>http://localhost:8080/causes/firehelp/</link>
+      <pubDate>Thu, 16 Apr 2020 16:51:17 -0400</pubDate>
+      
+      <guid>http://localhost:8080/causes/firehelp/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
