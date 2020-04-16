@@ -21,5 +21,3 @@ fields:
   config:
     required: false
   label: link
-pages:
-- content/aid-group.md
