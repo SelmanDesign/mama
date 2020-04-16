@@ -1,7 +1,7 @@
 ---
-title: "Drought"
-date: 2020-04-16T11:28:17-04:00
+title: Drought
+date: 2020-04-16T15:28:17.000+00:00
+type: sketch
 draft: true
-type: "sketch"
+
 ---
-why is this not working?//?!
