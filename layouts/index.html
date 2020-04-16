@@ -7,26 +7,32 @@
 <body>
   <h1>Mama</h1>
   <ul id="menu">
-    {{ .Content }}
-    {{ range .Pages }}
-      {{ range .Pages }}
-        <li id="{{.Title}}">
-            {{.Title}}
-        </li>
-      {{ end }}
+    {{ range (where .Site.Pages "Type" "sketch") }}
+      <li id="{{.Title}}">
+        {{ .Title }}
+      </li>
     {{ end }}
     </ul>
     <ul id="canvashold">
-    {{ range .Pages }}
-      {{ range .Pages }}
+      {{ range first 5 (where .Site.Pages "Type" "sketch") }}
         <li class="canvased" id="{{.Title}}canvas">
         </li>
         {{ if .Params.js }}
           <script src="{{ .Params.js }}"></script>
         {{ end }}
       {{ end }}
-    {{ end }}
     </ul>
+
+    <div id="causedejour">
+      {{ range (where .Site.Pages "Type" "causes") }}
+        {{ range .Pages }}
+          <div class="cause-item">
+            <p> {{ .Title }} </p>
+            <p> {{ .Content }}</p>
+          </div>
+        {{ end }}
+      {{ end }}
+    </div>
 
 </body>
 {{ partial "footer" . }}
