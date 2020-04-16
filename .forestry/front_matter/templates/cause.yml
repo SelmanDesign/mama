@@ -14,3 +14,8 @@ fields:
 - type: text
   name: js
   label: js
+- name: cause
+  type: text
+  config:
+    required: false
+  label: cause
