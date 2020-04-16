@@ -1,4 +1,23 @@
 ---
 label: Content
 hide_body: true
-fields: []
+fields:
+- name: description_of_cause
+  type: text
+  config:
+    required: false
+  label: Name of Cause
+- name: describe_this_cause
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Describe this cause
+- name: link
+  type: text
+  config:
+    required: false
+  label: link
