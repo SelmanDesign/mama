@@ -1,0 +1,33 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>It ain't ok mama</title>
+  {{ partial "header" . }}
+</head>
+<body>
+  <h1>Mama</h1>
+  <ul id="menu">
+    {{ .Content }}
+    {{ range .Pages }}
+      {{ range .Pages }}
+        <li id="{{.Title}}">
+            {{.Title}}
+        </li>
+      {{ end }}
+    {{ end }}
+    </ul>
+    <ul id="canvashold">
+    {{ range .Pages }}
+      {{ range .Pages }}
+        <li class="canvased" id="{{.Title}}canvas">
+        </li>
+        {{ if .Params.js }}
+          <script src="{{ .Params.js }}"></script>
+        {{ end }}
+      {{ end }}
+    {{ end }}
+    </ul>
+
+</body>
+{{ partial "footer" . }}
+</html>
