@@ -7,10 +7,12 @@
 <body>
   <h1>Mama</h1>
   <ul id="menu">
-    {{ range (where .Site.Pages "Type" "sketch") }}
-      <li id="{{.Title}}">
-        {{ .Title }}
-      </li>
+    {{ range (where .Site.Pages "Type" "sketches") }}
+      {{ range .Pages }}
+        <li id="{{.Title}}">
+          {{ .Title }}
+        </li>
+      {{ end }}  
     {{ end }}
     </ul>
     <ul id="canvashold">
