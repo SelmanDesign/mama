@@ -1,5 +1,3 @@
-console.log("hello");
-
 let font, points, pointsInPaths, pointsInGlyphs;
 let txt = "it ain't ok";
 let imp;
